@@ -19,6 +19,15 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
+  <scm>
+    <connection>scm:git:git@github.com:deerao1/javaapp.git</connection>
+    <developerConnection>scm:git:git@github.com:deerao1/javaapp.git</developerConnection>
+    <url>https://github.com/deerao1/javaapp</url>
+    <tag>@{project.version}</tag>
+  </scm>
+
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
