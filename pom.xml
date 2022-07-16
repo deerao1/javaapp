@@ -6,7 +6,7 @@
 
   <groupId>com.company</groupId>
   <artifactId>javaproject</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>javaproject Maven Webapp</name>
@@ -26,6 +26,18 @@
     <tag>@{project.version}</tag>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>artifact.repo</id>
+      <name>nexus3</name>
+      <url>http://localhost:8081</url>
+    </repository>
+    <snapshotRepository>
+      <id>artifact.repo</id>
+      <name>nexus3</name>
+      <url>http://localhost:8081</url>      
+    </snapshotRepository>
+  </distributionManagement>
 
 
   <dependencies>
