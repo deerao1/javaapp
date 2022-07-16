@@ -30,12 +30,12 @@
     <repository>
       <id>artifact.repo</id>
       <name>nexus3</name>
-      <url>http://localhost:8081</url>
+      <url>http://localhost:8081/repository/nexus-maven2-local/</url>
     </repository>
     <snapshotRepository>
       <id>artifact.repo</id>
       <name>nexus3</name>
-      <url>http://localhost:8081</url>      
+      <url>http://localhost:8081/repository/nexus-maven2-local/</url>      
     </snapshotRepository>
   </distributionManagement>
 
