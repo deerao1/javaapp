@@ -5,7 +5,7 @@
 
   <groupId>com.company</groupId>
   <artifactId>javaproject</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.5-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>javaproject Maven Webapp</name>
@@ -29,12 +29,12 @@
     <repository>
       <id>artifact.repo</id>
       <name>nexus3</name>
-      <url>http://localhost:8081/repository/nexus-maven2-local/</url>
+      <url>http://172.17.0.1:8081/repository/nexus-maven2-local/</url>
     </repository>
     <snapshotRepository>
       <id>artifact.repo</id>
       <name>nexus3</name>
-      <url>http://localhost:8081/repository/nexus-maven2-local/</url>      
+      <url>http://172.17.0.1:8081/repository/nexus-maven2-local/</url>      
     </snapshotRepository>
   </distributionManagement>
 
