@@ -5,7 +5,7 @@
 
   <groupId>com.company</groupId>
   <artifactId>javaproject</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.4-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>javaproject Maven Webapp</name>
@@ -22,7 +22,7 @@
     <connection>scm:git:git@github.com:deerao1/javaapp.git</connection>
     <developerConnection>scm:git:git@github.com:deerao1/javaapp.git</developerConnection>
     <url>https://github.com/deerao1/javaapp</url>
-    <tag>javaproject-1.0.3</tag>
+    <tag>@{project.version}</tag>
   </scm>
 
   <distributionManagement>
